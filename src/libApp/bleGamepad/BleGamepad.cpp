@@ -11,7 +11,7 @@
 #include <Arduino.h>
 #include "BleGamepad.h"
 
-#if defined(BLE_GAMEPAD) && (BLE_GAMEPAD == ON && ESP32)
+#if defined(BLE_GAMEPAD) && (BLE_GAMEPAD == ON)
 
   #include <BLEDevice.h>
   #include "../cmd/Cmd.h"
